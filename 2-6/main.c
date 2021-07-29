@@ -34,6 +34,7 @@ void	test_show_bytes(int val) {
 int main()
 {
 	int val = 3510593;
+	// 
 	byte_pointer valp = (byte_pointer) &val;
 	show_bytes(valp, 1);
 	show_bytes(valp, 2);
